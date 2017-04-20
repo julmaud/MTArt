@@ -1,0 +1,582 @@
+Name;Y;X;Entrance
+25th St;40.660397;-73.998091;Stair
+36th St;40.655144;-74.003549;Stair
+45th St;40.648939;-74.010006;Stair
+53rd St;40.645069;-74.014034;Stair
+59th St;40.641362;-74.017881;Stair
+77th St;40.629742;-74.02551;Stair
+86th St;40.622687;-74.028398;Stair
+95th St;40.616622;-74.030876;Stair
+9th St;40.670847;-73.988302;Stair
+Atlantic Av-Barclays Ctr;40.683666;-73.97881;Elevator
+Bay Ridge Av;40.634967;-74.023377;Stair
+DeKalb Av;40.690635;-73.981824;Elevator
+DeKalb Av;40.690635;-73.981824;Stair
+DeKalb Av;40.690635;-73.981824;Easement
+Pacific St;40.683666;-73.97881;Stair
+Prospect Av;40.665414;-73.992872;Stair
+Union St;40.677316;-73.98311;Stair
+Grand Central;40.752769;-73.979189;Easement
+Grand Central;40.752769;-73.979189;Escalator
+Grand Central;40.752769;-73.979189;Stair
+Times Square;40.755983;-73.986229;Stair
+14th St;40.738228;-73.996209;Stair
+23rd St;40.742878;-73.992821;Stair
+2nd Av;40.723402;-73.989938;Stair
+34th St;40.749719;-73.987823;Elevator
+34th St;40.749719;-73.987823;Stair
+34th St;40.749719;-73.987823;Easement
+42nd St;40.754222;-73.984569;Easement
+42nd St;40.754222;-73.984569;Stair
+47-50th Sts Rockefeller Center;40.758663;-73.981329;Easement
+47-50th Sts Rockefeller Center;40.758663;-73.981329;Elevator
+47-50th Sts Rockefeller Center;40.758663;-73.981329;Stair
+4th Av;40.670272;-73.989779;Door
+57th St;40.763972;-73.97745;Stair
+7th Av;40.666271;-73.980305;Stair
+Bergen St;40.686145;-73.990862;Stair
+Broadway-Lafayette St;40.725297;-73.996204;Stair
+Carroll St;40.680303;-73.995048;Stair
+Church Av;40.644041;-73.979678;Stair
+Delancey St;40.718611;-73.988114;Stair
+East Broadway;40.713715;-73.990173;Stair
+Fort Hamilton Parkway;40.650782;-73.975776;Stair
+Fort Hamilton Parkway;40.650782;-73.975776;Door
+Grand St;40.718267;-73.993753;Stair
+Prospect Park-15 St;40.660365;-73.979493;Stair
+Smith-9th St;40.67358;-73.995959;Door
+York St;40.699743;-73.986885;Stair
+21st St;40.754203;-73.942836;Elevator
+21st St;40.754203;-73.942836;Escalator
+21st St;40.754203;-73.942836;Stair
+Lexington Av;40.764627;-73.96611;Elevator
+Lexington Av;40.764627;-73.96611;Escalator
+Lexington Av;40.764627;-73.96611;Stair
+Roosevelt Island;40.759145;-73.95326;Door
+103rd St;40.796092;-73.961454;Stair
+116th St;40.805085;-73.954882;Stair
+125th St;40.811109;-73.952343;Stair
+135th St;40.817894;-73.947649;Stair
+145th St;40.824783;-73.944216;Stair
+14th St;40.740893;-74.00169;Easement
+14th St;40.740893;-74.00169;Stair
+155th St;40.830518;-73.941514;Stair
+163rd St - Amsterdam Av;40.836013;-73.939892;Stair
+168th St - Washington Heights;40.840719;-73.939561;Stair
+175th St;40.847391;-73.939704;Elevator
+175th St;40.847391;-73.939704;Stair
+181st St;40.851695;-73.937969;Door
+181st St;40.851695;-73.937969;Stair
+190th St;40.859022;-73.93418;Door
+190th St;40.859022;-73.93418;Stair
+23rd St;40.745906;-73.998041;Stair
+34th St;40.752287;-73.993391;Elevator
+34th St;40.752287;-73.993391;Stair
+42nd St;40.757308;-73.989735;Easement
+42nd St;40.757308;-73.989735;Stair
+50th St;40.762456;-73.985984;Easement
+50th St;40.762456;-73.985984;Elevator
+50th St;40.762456;-73.985984;Escalator
+50th St;40.762456;-73.985984;Stair
+59th St;40.768296;-73.981736;Easement
+59th St;40.768296;-73.981736;Elevator
+59th St;40.768296;-73.981736;Escalator
+59th St;40.768296;-73.981736;Stair
+72nd St;40.775594;-73.97641;Stair
+81st St - Museum of Natural History;40.781433;-73.972143;Stair
+81st St - Museum of Natural History;40.781433;-73.972143;Door
+86th St;40.785868;-73.968916;Stair
+96th St;40.791646;-73.964699;Stair
+Broadway-Nassau;40.710197;-74.007691;Easement
+Canal St;40.720824;-74.005229;Stair
+Cathedral Parkway-110th St;40.800605;-73.958158;Stair
+Chambers St;40.714111;-74.008585;Stair
+Dyckman St-200th St;40.865491;-73.927271;Easement
+Dyckman St-200th St;40.865491;-73.927271;Stair
+High St;40.699337;-73.990531;Stair
+Inwood - 207th St;40.868072;-73.919899;Elevator
+Inwood - 207th St;40.868072;-73.919899;Stair
+Spring St;40.726227;-74.003739;Stair
+West 4th St;40.732338;-74.000495;Elevator
+West 4th St;40.732338;-74.000495;Stair
+World Trade Center;40.712582;-74.009781;Stair
+Jamaica-Van Wyck;40.702566;-73.816859;Elevator
+Jamaica-Van Wyck;40.702566;-73.816859;Stair
+Parsons Blvd-Archer Av - Jamaica Center;40.702147;-73.801109;Elevator
+Parsons Blvd-Archer Av - Jamaica Center;40.702147;-73.801109;Escalator
+Parsons Blvd-Archer Av - Jamaica Center;40.702147;-73.801109;Stair
+Sutphin Blvd-Archer Av - JFK;40.700486;-73.807969;Stair
+30 Av-Grand Av;40.766779;-73.921479;Stair
+36 Av-Washington Av;40.756804;-73.929575;Stair
+39 Av-Beebe Av;40.752882;-73.932755;Stair
+Astoria Blvd-Hoyt Av;40.770258;-73.917843;Stair
+Broadway;40.76182;-73.925508;Stair
+Ditmars Blvd;40.775036;-73.912034;Stair
+7th Av;40.67705;-73.972367;Stair
+Atlantic Av;40.68446;-73.97689;Easement
+Av H;40.62927;-73.961639;Door
+Av H;40.62927;-73.961639;Stair
+Av J;40.625039;-73.960803;Door
+Av J;40.625039;-73.960803;Stair
+Av M;40.617618;-73.959399;Door
+Av U;40.5993;-73.955929;Door
+Beverly Rd;40.644031;-73.964492;Door
+Brighton Beach;40.577621;-73.961376;Escalator
+Brighton Beach;40.577621;-73.961376;Stair
+Church Av;40.650527;-73.962982;Door
+Cortelyou Rd;40.640927;-73.963891;Door
+Kings Highway;40.60867;-73.957734;Door
+Neck Rd;40.595246;-73.955161;Door
+Newkirk Av;40.635082;-73.962793;Door
+Ocean Parkway;40.576312;-73.968501;Stair
+Parkside Av;40.655292;-73.961495;Door
+Parkside Av;40.655292;-73.961495;Stair
+Prospect Park;40.661614;-73.962246;Door
+Prospect Park;40.661614;-73.962246;Stair
+Sheepshead Bay;40.586896;-73.954155;Door
+Stillwell Av;40.577422;-73.981233;Stair
+West 8th St;40.576127;-73.975939;Ramp
+West 8th St;40.576127;-73.975939;Stair
+23rd St;40.741303;-73.989344;Stair
+28th St;40.745494;-73.988691;Stair
+34th St;40.749567;-73.98795;Stair
+49th St;40.759901;-73.984139;Stair
+49th St;40.759901;-73.984139;Easement
+57th St;40.764664;-73.980658;Stair
+5th Av;40.764811;-73.973347;Stair
+5th Av;40.764811;-73.973347;Easement
+8th St;40.730328;-73.992629;Stair
+Canal St (UL);40.719527;-74.001775;Stair
+City Hall;40.713282;-74.006978;Stair
+Cortlandt St;40.710668;-74.011029;Stair
+Cortlandt St;40.710668;-74.011029;Easement
+Court St;40.6941;-73.991777;Stair
+Lawrence St;40.69218;-73.985942;Stair
+Lexington Av;40.76266;-73.967258;Stair
+Prince St;40.724329;-73.997702;Stair
+Rector St;40.70722;-74.013342;Stair
+Times Square-42nd St;40.754672;-73.986754;Stair
+Union Square;40.735736;-73.990568;Stair
+Whitehall St;40.703087;-74.012994;Stair
+104th St-102nd St;40.695178;-73.84433;Stair
+111th St;40.697418;-73.836345;Stair
+121st St;40.700492;-73.828294;Stair
+Alabama Av;40.676992;-73.898654;Stair
+Chauncey St;40.682893;-73.910456;Stair
+Cleveland St;40.679947;-73.884639;Stair
+Crescent St;40.683194;-73.873785;Stair
+Cypress Hills;40.689941;-73.87255;Stair
+Elderts Lane-75th St;40.691324;-73.867139;Stair
+Flushing Av;40.70026;-73.941126;Elevator
+Flushing Av;40.70026;-73.941126;Stair
+Forest Parkway-85th St;40.692435;-73.86001;Stair
+Gates Av;40.68963;-73.92227;Stair
+Halsey St;40.68637;-73.916559;Stair
+Hewes St;40.70687;-73.953431;Stair
+Kosciusko St;40.693342;-73.928814;Stair
+Lorimer St;40.703869;-73.947408;Stair
+Marcy Av;40.708359;-73.957757;Elevator
+Marcy Av;40.708359;-73.957757;Stair
+Myrtle Av;40.697207;-73.935657;Stair
+Norwood Av;40.68141;-73.880039;Stair
+Van Siclen Av;40.678024;-73.891688;Stair
+Woodhaven Blvd;40.693879;-73.851576;Stair
+103rd St;40.799446;-73.968379;Stair
+116th St-Columbia University;40.807722;-73.96411;Stair
+125th St;40.815581;-73.958372;Escalator
+125th St;40.815581;-73.958372;Stair
+137th St-City College;40.822008;-73.953676;Stair
+145th St;40.826551;-73.95036;Stair
+14th St;40.737826;-74.000201;Stair
+157th St;40.834041;-73.94489;Stair
+168th St;40.840556;-73.940133;Stair
+181st St;40.849505;-73.933596;Easement
+181st St;40.849505;-73.933596;Stair
+18th St;40.74104;-73.997871;Stair
+191st St;40.855225;-73.929412;Door
+191st St;40.855225;-73.929412;Ramp
+207th St;40.864614;-73.918819;Stair
+215th St;40.869444;-73.915279;Stair
+231st St;40.878856;-73.904834;Stair
+238th St;40.884667;-73.90087;Stair
+23rd St;40.744081;-73.995657;Stair
+28th St;40.747215;-73.993365;Stair
+34th St;40.750373;-73.991057;Easement
+34th St;40.750373;-73.991057;Stair
+50th St;40.761728;-73.983849;Stair
+50th St;40.761728;-73.983849;Easement
+59th St-Columbus Circle;40.768247;-73.981929;Stair
+66th St-Lincoln Center;40.77344;-73.982209;Elevator
+66th St-Lincoln Center;40.77344;-73.982209;Stair
+72nd St;40.778453;-73.98197;Door
+79th St;40.783934;-73.979917;Stair
+86th St;40.788644;-73.976218;Stair
+96th St;40.793919;-73.972323;Door
+96th St;40.793919;-73.972323;Stair
+Canal St;40.722854;-74.006277;Stair
+Cathedral Parkway-110th St;40.803967;-73.966847;Stair
+Chambers St;40.715478;-74.009266;Stair
+Christopher St;40.733422;-74.002906;Stair
+Dyckman St;40.860531;-73.925536;Stair
+Franklin St;40.719318;-74.006886;Stair
+Houston St;40.728251;-74.005367;Stair
+Marble Hill-225th St;40.874561;-73.909831;Stair
+Rector St;40.707513;-74.013783;Stair
+South Ferry;40.702068;-74.013664;Elevator
+South Ferry;40.702068;-74.013664;Escalator
+South Ferry;40.702068;-74.013664;Stair
+Times Square;40.75529;-73.987495;Easement
+Times Square;40.75529;-73.987495;Stair
+Van Cortlandt Park-242nd St;40.889248;-73.898583;Stair
+1st Av;40.730953;-73.981628;Stair
+3rd Av;40.732849;-73.986122;Stair
+6th Av;40.737335;-73.996786;Stair
+8th Av;40.739777;-74.002578;Stair
+Atlantic Av;40.675345;-73.903097;Stair
+Bedford Av;40.717304;-73.956872;Stair
+Bushwick Av;40.682829;-73.905249;Door
+Canarsie - Rockaway Parkway;40.646654;-73.90185;Door
+Canarsie - Rockaway Parkway;40.645757;-73.9025;Door
+Canarsie - Rockaway Parkway;40.645957;-73.901741;Walkway
+DeKalb Av;40.703811;-73.918425;Stair
+East 105th St;40.650573;-73.899485;Stair
+Graham Av;40.714565;-73.944053;Stair
+Grand St;40.711926;-73.94067;Stair
+Halsey St;40.695602;-73.904084;Stair
+Jefferson St;40.706607;-73.922913;Stair
+Livonia Av;40.664038;-73.900571;Door
+Livonia Av;40.664038;-73.900571;Stair
+Lorimer St;40.714063;-73.950275;Stair
+Montrose Av;40.707739;-73.93985;Stair
+Morgan Av;40.706152;-73.933147;Stair
+Morgan Av;40.706152;-73.933147;Door
+Myrtle Av;40.699814;-73.911586;Stair
+New Lots Av;40.658733;-73.899232;Stair
+Sutter Av;40.669367;-73.901975;Stair
+Union Square;40.734789;-73.99073;Stair
+Wilson Av;40.688764;-73.904046;Stair
+Borough Hall;40.693219;-73.989998;Elevator
+Borough Hall;40.693219;-73.989998;Stair
+Clark St;40.697466;-73.993086;Door
+Fulton St;40.709416;-74.006571;Stair
+Fulton St;40.709416;-74.006571;Easement
+Park Place;40.713051;-74.008811;Stair
+Wall St;40.706821;-74.0091;Stair
+Wall St;40.706821;-74.0091;Easement
+155th St;40.830135;-73.938209;Stair
+167th St;40.833769;-73.918432;Stair
+170th St;40.839306;-73.9134;Stair
+174-175th Sts;40.8459;-73.910136;Door
+174-175th Sts;40.8459;-73.910136;Stair
+182nd-183rd Sts;40.856093;-73.900741;Stair
+Bedford Park Blvd;40.873244;-73.887138;Stair
+Fordham Rd;40.861296;-73.897749;Stair
+Kingsbridge Rd;40.866978;-73.893509;Stair
+Kingsbridge Rd;40.866978;-73.893509;Door
+Norwood-205th St;40.874811;-73.878855;Stair
+Tremont Av;40.85041;-73.905227;Stair
+Yankee Stadium-161st St;40.827905;-73.925651;Elevator
+Yankee Stadium-161st St;40.827905;-73.925651;Stair
+Yankee Stadium-161st St;40.827905;-73.925651;Door
+21st St;40.744065;-73.949724;Stair
+Bedford-Nostrand Avs;40.689627;-73.953522;Stair
+Broadway;40.706092;-73.950308;Stair
+Classon Av;40.688873;-73.96007;Stair
+Clinton-Washington Avs;40.688089;-73.966839;Stair
+Flushing Av;40.700377;-73.950234;Stair
+Fulton St;40.687119;-73.975375;Stair
+Greenpoint Av;40.731352;-73.954449;Stair
+Long Island City-Court Square;40.746554;-73.943832;Stair
+Long Island City-Court Square;40.746554;-73.943832;Easement
+Metropolitan Av;40.712792;-73.951418;Stair
+Myrtle-Willoughby Avs;40.694568;-73.949046;Stair
+Nassau Av;40.724635;-73.951277;Stair
+18th Av;40.629755;-73.976971;Stair
+Av I;40.625322;-73.976127;Stair
+Av N;40.61514;-73.974197;Stair
+Av P;40.608944;-73.973022;Stair
+Av U;40.596063;-73.973357;Stair
+Av X;40.58962;-73.97425;Stair
+Bay Parkway-22nd Av;40.620769;-73.975264;Stair
+Ditmas Av;40.636119;-73.978172;Stair
+Kings Highway;40.603217;-73.972361;Stair
+Neptune Av-Van Siclen;40.581011;-73.974574;Stair
+Baychester Av;40.878663;-73.838591;Door
+Eastchester-Dyre Av;40.8883;-73.830834;Door
+Gun Hill Rd;40.869526;-73.846384;Easement
+Gun Hill Rd;40.869526;-73.846384;Door
+Morris Park;40.854364;-73.860495;Door
+Pelham Parkway;40.858985;-73.855359;Door
+Atlantic Av-Barclays Ctr;40.684359;-73.977666;Easement
+Bergen St;40.680829;-73.975098;Stair
+Eastern Parkway-Brooklyn Museum;40.671987;-73.964375;Stair
+Franklin Av;40.670682;-73.958131;Stair
+Grand Army Plaza;40.675235;-73.971046;Stair
+Hoyt St;40.690545;-73.985065;Stair
+Kingston Av;40.669399;-73.942161;Stair
+Nevins St;40.688246;-73.980492;Stair
+Nostrand Av;40.669847;-73.950466;Stair
+Utica Av;40.668897;-73.932942;Elevator
+Utica Av;40.668897;-73.932942;Stair
+103rd St;40.749865;-73.8627;Stair
+111th St;40.75173;-73.855334;Stair
+45 Rd-Court House Sq;40.747023;-73.945264;Stair
+5th Av;40.753821;-73.981963;Stair
+82nd St-Jackson Heights;40.747659;-73.883697;Stair
+90th St Elmhurst;40.748408;-73.876613;Stair
+Bliss St-46th St;40.743132;-73.918435;Stair
+Broadway-74th St;40.746848;-73.891394;Stair
+Fisk Av-69th St;40.746325;-73.896403;Stair
+Flushing-Main St;40.7596;-73.83003;Stair
+Flushing-Main St;40.7596;-73.83003;Elevator
+Flushing-Main St;40.7596;-73.83003;Escalator
+Grand Central-42nd St;40.751431;-73.976041;Easement
+Hunters Point;40.742216;-73.948916;Stair
+Junction Blvd;40.749145;-73.869527;Elevator
+Junction Blvd;40.749145;-73.869527;Stair
+Lincoln Av-52nd St;40.744149;-73.912549;Stair
+Lowery St-40th St;40.743781;-73.924016;Stair
+Mets - Willets Point;40.754622;-73.845625;Door
+Mets - Willets Point;40.754622;-73.845625;Stair
+Queensboro Plaza;40.750582;-73.940202;Easement
+Queensboro Plaza;40.750582;-73.940202;Stair
+Rawson St-33rd St;40.744587;-73.930997;Stair
+Vernon Blvd-Jackson Av;40.742626;-73.953581;Stair
+Woodside Av-61st St;40.74563;-73.902984;Escalator
+Woodside Av-61st St;40.74563;-73.902984;Stair
+Botanic Gardens;40.670343;-73.959245;Stair
+Franklin Av;40.680596;-73.955827;Door
+Park Place;40.674772;-73.957624;Stair
+Broadway Junction-East New York;40.678334;-73.905316;Door
+Clinton & Washington Avs;40.683263;-73.965838;Stair
+Euclid Av;40.675377;-73.872106;Elevator
+Euclid Av;40.675377;-73.872106;Stair
+Franklin Av;40.68138;-73.956848;Stair
+Hoyt & Schermerhorn;40.688484;-73.985001;Stair
+Jay St - Borough Hall;40.692338;-73.987342;Easement
+Jay St - Borough Hall;40.692338;-73.987342;Escalator
+Jay St - Borough Hall;40.692338;-73.987342;Stair
+Kingston-Throop;40.679921;-73.940858;Stair
+Lafayette Av;40.686113;-73.973946;Stair
+Liberty Av;40.674542;-73.896548;Stair
+Nostrand Av;40.680438;-73.950426;Stair
+Ralph Av;40.678822;-73.920786;Stair
+Rockaway Av;40.67834;-73.911946;Stair
+Shepherd Av;40.67413;-73.88075;Stair
+Utica Av;40.679364;-73.930729;Stair
+Van Siclen Av;40.67271;-73.890358;Stair
+138th St;40.813224;-73.929849;Stair
+149th St-Grand Concourse;40.818375;-73.927351;Stair
+167th St;40.835537;-73.9214;Stair
+170th St;40.840075;-73.917791;Stair
+176th St;40.84848;-73.911794;Stair
+183rd St;40.858407;-73.903879;Stair
+Bedford Park Blvd-Lehman College;40.873412;-73.890064;Stair
+Burnside Av;40.853453;-73.907684;Stair
+Fordham Rd;40.862803;-73.901034;Stair
+Kingsbridge Rd;40.86776;-73.897174;Stair
+Mosholu Parkway;40.87975;-73.884655;Stair
+Mt Eden Av;40.844434;-73.914685;Stair
+Woodlawn;40.886037;-73.878751;Stair
+Yankee Stadium-161st St;40.827994;-73.925831;Elevator
+Yankee Stadium-161st St;40.827994;-73.925831;Stair
+110th St-Central Park North;40.799075;-73.951822;Stair
+116th St;40.802098;-73.949625;Stair
+125th St;40.807754;-73.945495;Stair
+135th St;40.814229;-73.94077;Stair
+145th St;40.820421;-73.936245;Stair
+Harlem-148th St;40.82388;-73.93647;Door
+103rd St;40.7906;-73.947478;Stair
+110th St;40.79502;-73.94425;Stair
+116th St;40.798629;-73.941617;Stair
+125th St;40.804138;-73.937594;Elevator
+125th St;40.804138;-73.937594;Stair
+14th St-Union Square;40.734673;-73.989951;Easement
+14th St-Union Square;40.734673;-73.989951;Stair
+23rd St;40.739864;-73.986599;Stair
+23rd St;40.739864;-73.986599;Easement
+28th St;40.74307;-73.984264;Stair
+28th St;40.74307;-73.984264;Easement
+33rd St;40.746081;-73.982076;Stair
+51st St;40.757107;-73.97192;Stair
+51st St;40.757107;-73.97192;Easement
+59th St;40.762526;-73.967967;Stair
+59th St;40.762526;-73.967967;Easement
+68th St-Hunter College;40.768141;-73.96387;Door
+68th St-Hunter College;40.768141;-73.96387;Stair
+77th St;40.77362;-73.959874;Stair
+86th St;40.779492;-73.955589;Stair
+96th St;40.785672;-73.95107;Stair
+Astor Place;40.730054;-73.99107;Stair
+Bleecker St;40.725915;-73.994659;Stair
+Borough Hall;40.692404;-73.990151;Stair
+Bowling Green;40.704817;-74.014065;Elevator
+Bowling Green;40.704817;-74.014065;Stair
+Brooklyn Bridge-City Hall;40.712868;-74.004806;Stair
+Brooklyn Bridge-City Hall;40.712723;-74.004971;Stair
+Brooklyn Bridge-City Hall;40.712333;-74.004387;Stair
+Brooklyn Bridge-City Hall;40.711857;-74.005114;Stair
+Brooklyn Bridge-City Hall;40.711824;-74.005057;Stair
+Brooklyn Bridge-City Hall;40.713813;-74.003907;Stair
+Brooklyn Bridge-City Hall;40.713889;-74.003654;Stair
+Brooklyn Bridge-City Hall;40.713065;-74.004131;Stair
+Canal St;40.718803;-74.000193;Stair
+Canal St;40.718803;-74.000193;Elevator
+Fulton St;40.710368;-74.009509;Stair
+Fulton St;40.710368;-74.009509;Easement
+Grand Central-42nd St;40.751776;-73.976848;Easement
+Grand Central-42nd St;40.751776;-73.976848;Stair
+Spring St;40.722301;-73.997141;Stair
+Wall St;40.707557;-74.011862;Stair
+104th St-Oxford Av;40.681711;-73.837683;Stair
+111th St-Greenwood Av;40.684331;-73.832163;Stair
+80th St-Hudson St;40.679371;-73.858992;Stair
+88th St-Boyd Av;40.679843;-73.85147;Stair
+Grant Av;40.677044;-73.86505;Door
+Lefferts Blvd;40.685951;-73.825798;Stair
+Rockaway Blvd;40.680429;-73.843853;Stair
+Central Av;40.697857;-73.927397;Stair
+Forest Av;40.704423;-73.903077;Stair
+Fresh Pond Rd;40.706186;-73.895877;Stair
+Knickerbocker Av;40.698664;-73.919711;Stair
+Metropolitan Av;40.711396;-73.889601;Door
+Seneca Av;40.702762;-73.90774;Stair
+Bowery;40.72028;-73.993915;Stair
+Broad St;40.706476;-74.011056;Stair
+Broad St;40.706476;-74.011056;Easement
+Canal St;40.718092;-73.999892;Stair
+Chambers St;40.713243;-74.003401;Stair
+Chambers St;40.71419;-74.003199;Stair
+Essex St;40.718315;-73.987437;Stair
+Fulton St;40.710374;-74.007582;Easement
+Fulton St;40.710374;-74.007582;Stair
+Junius St;40.663515;-73.902447;Stair
+New Lots Av;40.666235;-73.884079;Stair
+Pennsylvania Av;40.664635;-73.894895;Stair
+Rockaway Av;40.662549;-73.908946;Stair
+Saratoga Av;40.661453;-73.916327;Stair
+Sutter Av;40.664717;-73.92261;Stair
+Van Siclen Av;40.665449;-73.889395;Stair
+Beverly Rd;40.645098;-73.948959;Stair
+Church Av;40.650843;-73.949575;Elevator
+Church Av;40.650843;-73.949575;Stair
+Flatbush Av-Brooklyn College;40.632836;-73.947642;Elevator
+Flatbush Av-Brooklyn College;40.632836;-73.947642;Stair
+Newkirk Av;40.639967;-73.948411;Stair
+President St;40.667883;-73.950683;Stair
+Sterling St;40.662742;-73.95085;Stair
+Winthrop St;40.656652;-73.9502;Stair
+138th St-3rd Ave;40.810476;-73.926138;Stair
+Brook Av;40.807566;-73.91924;Stair
+Buhre Av;40.84681;-73.832569;Stair
+Castle Hill Av;40.834255;-73.851222;Stair
+Cypress Av;40.805368;-73.914042;Stair
+East 143rd St-St Mary's St;40.808719;-73.907657;Stair
+East 149th St;40.812118;-73.904098;Stair
+Elder Av;40.828584;-73.879159;Stair
+Hunts Point Av;40.820948;-73.890549;Stair
+Longwood Av;40.816104;-73.896435;Stair
+Middletown Rd;40.843863;-73.836322;Stair
+Morrison Av-Soundview Av;40.829521;-73.874516;Stair
+Parkchester-East 177th St;40.833226;-73.860816;Stair
+Pelham Bay Park;40.852462;-73.828121;Door
+Pelham Bay Park;40.852462;-73.828121;Elevator
+Pelham Bay Park;40.852462;-73.828121;Stair
+St Lawrence Av;40.831509;-73.867618;Stair
+Westchester Square-East Tremont Av;40.839892;-73.842952;Stair
+Whitlock Av;40.826525;-73.886283;Stair
+Zerega Av;40.836488;-73.847036;Stair
+169th St;40.71047;-73.793604;Stair
+23rd St-Ely Av;40.747846;-73.946;Easement
+23rd St-Ely Av;40.747846;-73.946;Stair
+36th St;40.752039;-73.928781;Stair
+46th St;40.756312;-73.913333;Stair
+5th Av-53rd St;40.760167;-73.975224;Easement
+5th Av-53rd St;40.760167;-73.975224;Stair
+63rd Drive-Rego Park;40.729846;-73.861604;Stair
+65th St;40.749669;-73.898453;Stair
+67th Av;40.726523;-73.852719;Stair
+75th Av;40.718331;-73.837324;Stair
+7th Av;40.762862;-73.981637;Stair
+Briarwood-Van Wyck Blvd;40.709179;-73.820574;Stair
+Elmhurst Av;40.742454;-73.882017;Stair
+Forest Hills-71st Av;40.721691;-73.844521;Stair
+Grand Av-Newtown;40.737015;-73.877223;Stair
+Jackson Heights-Roosevelt Ave;40.746644;-73.891338;Door
+Jackson Heights-Roosevelt Ave;40.746644;-73.891338;Stair
+Jamaica-179th St;40.712646;-73.783817;Elevator
+Jamaica-179th St;40.712646;-73.783817;Stair
+Kew Gardens-Union Turnpike;40.714441;-73.831008;Elevator
+Kew Gardens-Union Turnpike;40.714441;-73.831008;Stair
+Lexington Av-53rd St;40.757552;-73.969055;Easement
+Lexington Av-53rd St;40.757552;-73.969055;Elevator
+Northern Blvd;40.752885;-73.906006;Stair
+Parsons Blvd;40.707564;-73.803326;Stair
+Queens Plaza;40.748973;-73.937243;Stair
+Steinway St;40.756879;-73.92074;Stair
+Sutphin Blvd;40.70546;-73.810708;Stair
+Woodhaven Blvd;40.733106;-73.869229;Stair
+Aqueduct Racetrack;40.672131;-73.835812;Ramp
+Aqueduct-North Conduit Av;40.668234;-73.834058;Door
+Aqueduct-North Conduit Av;40.668234;-73.834058;Stair
+Beach 105th St;40.583209;-73.827559;Stair
+Beach 25th St;40.600066;-73.761353;Stair
+Beach 36th St;40.595398;-73.768175;Stair
+Beach 44th St;40.592943;-73.776013;Stair
+Beach 60th St;40.592374;-73.788522;Stair
+Beach 67th St;40.590927;-73.796924;Stair
+Beach 90th St;40.588034;-73.813641;Stair
+Beach 98th St;40.585307;-73.820558;Stair
+Broad Channel;40.608382;-73.815925;Stair
+Far Rockaway-Mott Av;40.603995;-73.755405;Door
+Howard Beach;40.660476;-73.830301;Elevator
+Howard Beach;40.660476;-73.830301;Stair
+Rockaway Park-Beach 116th;40.580903;-73.835592;Door
+18th Av;40.620671;-73.990414;Door
+20th Av;40.61741;-73.985026;Door
+86th St;40.592721;-73.97823;Door
+8th Av;40.635064;-74.011719;Door
+Av U;40.597473;-73.979137;Door
+Bay Parkway-22nd Av;40.611815;-73.981848;Door
+Fort Hamilton Parkway;40.631386;-74.005351;Door
+Kings Highway;40.603923;-73.980353;Door
+New Utrecht Av;40.624842;-73.996353;Door
+18th Av;40.607954;-74.001736;Stair
+20th Av;40.604556;-73.998168;Stair
+25th Av;40.597704;-73.986829;Stair
+50th St;40.63626;-73.994791;Stair
+55th St;40.631435;-73.995476;Stair
+62nd St;40.626472;-73.996895;Stair
+71st St;40.619589;-73.998864;Stair
+79th St;40.613501;-74.00061;Stair
+9th Av;40.646292;-73.994324;Door
+Bay 50th St;40.588841;-73.983765;Stair
+Bay Parkway;40.601875;-73.993728;Stair
+Fort Hamilton Parkway;40.640914;-73.994304;Stair
+149th St-3rd Av;40.816109;-73.917757;Elevator
+149th St-3rd Av;40.816109;-73.917757;Stair
+174th St;40.837288;-73.887734;Stair
+219th St;40.883895;-73.862633;Stair
+225th St;40.888022;-73.860341;Stair
+233rd St;40.893193;-73.857473;Stair
+238th St-Nereid Av;40.898379;-73.854376;Stair
+Allerton Av;40.865462;-73.867352;Stair
+Bronx Park East;40.848828;-73.868457;Stair
+Burke Av;40.871356;-73.867164;Stair
+East 180th St;40.841894;-73.873488;Door
+East Tremont Av-West Farms Sq;40.840295;-73.880049;Escalator
+East Tremont Av-West Farms Sq;40.840295;-73.880049;Stair
+Freeman St;40.829993;-73.891865;Stair
+Gun Hill Rd;40.87785;-73.866256;Door
+Gun Hill Rd;40.87785;-73.866256;Stair
+Intervale Av;40.822181;-73.896736;Escalator
+Intervale Av;40.822181;-73.896736;Stair
+Jackson Av;40.81649;-73.907807;Stair
+Pelham Parkway;40.857192;-73.867615;Escalator
+Pelham Parkway;40.857192;-73.867615;Stair
+Prospect Av;40.819585;-73.90177;Stair
+Simpson St;40.824073;-73.893064;Elevator
+Simpson St;40.824073;-73.893064;Stair
+Wakefield-241st St;40.903125;-73.85062;Stair
+34 St Hudson Yards;40.755882;-74.00191;Elevator
+34 St Hudson Yards;40.755882;-74.00191;Stair
