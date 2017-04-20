@@ -26,17 +26,17 @@
 # 
 # We had the idea of conducting such a project, that can sound a bit original in the beginning, when we met Oriel Ceballos at an art show in Harlem earlier this year. After a successful career as a professor, he decided to take an early exit and started a life as a full time artist, collector and curator. More info on him can be found on his Instagram page: https://www.instagram.com/or1el/?hl=fr
 # 
-# In order to broaden his audience, engage to people and sell his artworks, Oriel regularly - several days per week - go to a subway station in either Manhattan or Brooklyn, displays his artworks and paints live, while engaging with commuters.
+# In order to broaden his audience, engage with people and sell his artworks, Oriel regularly - several days a week - goes to a subway station in either Manhattan or Brooklyn, displays his artworks and paints live.
 # 
-# Concerning his station selection process, he would just try stations with traffic and where he would have enough space to display his artworks. However, it rang a bell in our data science-sensitized ears. 
+# What about his station selection process? He just tries stations with traffic and where there is enough space to display the pieces. However, it rang a bell in our data science-sensitized ears. 
 # 
-# Let's gather data about subway stations that are relevant to our use case and try to come out with a way for artists to optimally select the subway station that best suits their requirements!!
+# The next step for us is to gather data about subway stations that are relevant to our use case and try to come out with a way for artists to optimally select the subway station that best suits their requirements!!
 # 
 # ### How to make it into a Data visualization use case? 
 # 
 # In order to go from our envy and inspiration to a data visualization task, we needed to gather datasets. But before gathering datasets, we needed to know what kind of data we were looking for. In particular, what features of subway stations were relevant to our analysis.
 # 
-# Here are our hypothesis on the features that matter:
+# Here are our hypothesis on the features that matter, and that are not too complicated to access:
 #     
 #     Is there a lot of traffic in the station?
 #     How easy and convenient is the access to the station?
@@ -52,12 +52,12 @@
 # ### Open Data
 #     
 # #### Traffic data
-# In this task, We started from the great work by Henri Dwyer, that can be found here: https://henri.io/posts/new-york-subway-traffic-data-part-1.html. The original data is here: http://web.mta.info/developers/turnstile.html
+# In this task, we started from the great work by Henri Dwyer, that can be found here: https://henri.io/posts/new-york-subway-traffic-data-part-1.html. The original data is here: http://web.mta.info/developers/turnstile.html
 # 
 # In its final format, for each subway station, it includes the mean daily traffic, as well as the daily traffic for 6 consecutive days in April 2017.
 # 
 # #### Art galleries
-# In order to link a subway station with an appeal for art, we decided to count the number of art galleries in a radius of 0.2 miles around the subway station. This would be a great indicator of the appeal for art in the zone.
+# In order to link a subway station with an appeal for art, we decided to count the number of art galleries in a radius of 0.2 miles around the subway station. This would be a great indicator of the artiness of the zone.
 # 
 # We found the data to do so on NYC OpenData: https://data.cityofnewyork.us/Recreation/New-York-City-Art-Galleries/tgyc-r5jh/data
 # 
@@ -75,25 +75,25 @@
 # In order to have insights on the wealth of commuters at each station, one indicator is the median income in the neighborhood of the station.
 # We found this information on this website: http://statisticalatlas.com/county-subdivision/New-York/New-York-County/Manhattan/Household-Income#figure/neighborhood and scrapped manually. 
 # 
-# We then collected the GPS coordinates of the centroid of each neighborhood using Google Maps, in order to link each station to the neighborhood of the centroid it is the closest to. 
+# We then collected the GPS coordinates of the centroid of each neighborhood using Google Maps, in order to link each station to the neighborhood of the centroid it is closest to. 
 # 
 # 
 # ## Data Preprocessing
 # 
 # ### Data Preparation
 # 
-# We have had to proceed to the following preprocessing steps:
+# We've had to go through the following preprocessing steps:
 #     
 #     Prepare all GPS coordinates to the same format
 #     Transform the traffic data in a usable format. From turnstile events to daily traffic, per station
 #     Format all Subway station names - Entity recognition problem - Mapping between datasets
 #     Deduplicate the subway stations, in the case where there are different entrances and entrance types
 #     
-# These steps are not in the following report are they don't include visualization but are available on the girhub repository.
+# These steps are not in the following report as they don't include visualization but are available on the github repository.
 # 
 # Below is a snapshot of the different datasets in their preprocessed format, before merging.
 
-# In[2]:
+# In[1]:
 
 from IPython.display import HTML
 
@@ -112,7 +112,7 @@ $( document ).ready(code_toggle);
 <form action="javascript:code_toggle()"><input type="submit" value="Click here to toggle on/off the raw code."></form>''')
 
 
-# In[3]:
+# In[2]:
 
 import pandas as pd
 import numpy as np
@@ -133,7 +133,7 @@ warnings.filterwarnings('ignore')
 
 # ### Income - Neighborhood
 
-# In[4]:
+# In[3]:
 
 nei = pd.read_csv('data/neighborhoods.csv', sep=';')
 nei['X'] = nei['X'].apply(lambda x: "-{:.6f}".format(x))
@@ -146,12 +146,12 @@ nei.head()
 
 # ### Art Galleries
 
-# In[5]:
+# In[4]:
 
 gal = pd.read_csv('data/galleries_untouched.csv', sep=',')
 
 
-# In[6]:
+# In[5]:
 
 gal['Y'] = gal['the_geom'].apply(lambda x: x.split(' ')[2].strip(')')[:9])
 gal['X'] = gal['the_geom'].apply(lambda x: x.split(' ')[1].strip('(')[:10])
@@ -160,19 +160,19 @@ del gal['ADDRESS2']
 gal = gal[['NAME','Y','X','TEL','URL','ADDRESS1','CITY','ZIP']]
 
 
-# In[7]:
+# In[6]:
 
 gal.head()
 
 
 # ### Subway Stations
 
-# In[8]:
+# In[7]:
 
 sta = pd.read_csv('data/stations_coord_entrance.csv', sep=';')
 
 
-# In[9]:
+# In[8]:
 
 types={'Stair':0,'Door':1,'Walkway':2,'Ramp': 3, 'Easement':4, 'Escalator':5, 'Elevator': 6}
 sta['Entrance'] = sta['Entrance'].map(types)
@@ -208,25 +208,25 @@ sta.head()
 #     April 12th 2017
 #     April 13th 2017
 
-# In[10]:
+# In[9]:
 
 sta_traffic = pd.read_csv('data/station_traffic.csv')
 
 
-# In[11]:
+# In[10]:
 
 #Map those station names to the ones in the DataFrame sta, that has all information on stations
 sta_traffic['Name'] = sta_traffic['Name'].apply(lambda x:str.lower(x))
 
 
-# In[12]:
+# In[11]:
 
 with open('data/map_station_names.json','r') as f:
     map_names = json.load(f)
 map_names_rev = {str(bad):str(good) for good,bad in map_names.iteritems()}
 
 
-# In[13]:
+# In[12]:
 
 map_names_normal = {orig_name: orig_name.lower() for orig_name in sta['Name']}
 map_names_normal_rev = {low:orig for orig, low in map_names_normal.iteritems()}
@@ -235,13 +235,13 @@ map_final = {bad: map_names_normal_rev[good] for bad, good in map_names_rev.iter
 sta_traffic['Name'] = sta_traffic['Name'].map(map_final)
 
 
-# In[14]:
+# In[13]:
 
 sta_traffic = sta_traffic.dropna()
 sta_traffic['traffic_mean'] = (sta_traffic['traffic_april8']+sta_traffic['traffic_april9']+sta_traffic['traffic_april10']+sta_traffic['traffic_april11']+sta_traffic['traffic_april12']+sta_traffic['traffic_april13'])/6
 
 
-# In[15]:
+# In[14]:
 
 sta_traffic.head()
 
@@ -249,13 +249,14 @@ sta_traffic.head()
 # ## Merging the diverse datasets
 # 
 # The final dataset is a dataset where for each subway station, we have all required information:
+# 
 #     Name
 #     Number of art galleries
 #     Median Income
 #     Traffic
 #     Entrance Type
 #     
-# Basically, we started with the dataset where each subway station is described. Then:
+# Basically, we started with the dataset where each subway station is described and went through the following steps:
 #     
 #     Compute the number of art galleries within 0.2 miles of the station, using GPS Coordinates of the galleries
 #     
@@ -263,9 +264,9 @@ sta_traffic.head()
 #     
 #     Join the obtained dataset with the dataset containing the traffic data, using a mapping between two different formats for the names of the stations, that we computed using Stemming and Levenstein Distance 
 
-# Note that some stations don't have a neighborhood as we focused on neighborhoods near Manhattan. We only keep those stations afterwards. We also filter out the stations that have less than 2 galleries around, in order to make to visualizations more readable and because those stations are not very interesting based on our assumptions.
+# Note that some stations don't have a neighborhood as we focused on neighborhoods near Manhattan. We only kept those stations, afterwards. We also filtered out the stations that have less than two galleries around, in order to make the visualizations more readable and because those stations are not very interesting, based on our assumptions above.
 
-# In[16]:
+# In[15]:
 
 #This function computes the distance, in miles, between two GPS points.
 def dist(x1, x2, y1, y2):
@@ -273,13 +274,13 @@ def dist(x1, x2, y1, y2):
     return dist
 
 
-# In[17]:
+# In[16]:
 
 sta_nbgal={sta_name: 0 for sta_name in sta['Name']}
 sta_neighborhood={sta_name: '' for sta_name in sta['Name']}
 
 
-# In[18]:
+# In[17]:
 
 for k in range(len(sta)):
     x1 = sta['X'][k]
@@ -297,48 +298,48 @@ for k in range(len(sta)):
             sta_neighborhood[station]=nei['Neighborhood'][l]
 
 
-# In[19]:
+# In[18]:
 
 sta['Nb_gal'] = sta['Name'].map(sta_nbgal)
 sta['Neighborhood'] = sta['Name'].map(sta_neighborhood)
 
 
-# Snapshot of the dataset of the Subway stations, before merging the traffic data, but after computation of the number of galleries and join with the neighborhood dataset
+# Below is a snapshot of the dataset of the Subway stations, before merging the traffic data, but after computing the number of galleries and joining with the neighborhood dataset
 
-# In[20]:
+# In[19]:
 
 sta = sta.join(nei, on='Neighborhood', how='left', lsuffix='', rsuffix='_nei')
 sta = sta[['Name','Y','X','Entrance','Nb_gal','Neighborhood','Median Income']]
 sta.head()
 
 
-# In[21]:
+# In[20]:
 
 sta_traffic.index = sta_traffic['Name']
 
 
-# In[22]:
+# In[21]:
 
 sta = sta.join(sta_traffic, on='Name', how='left', lsuffix='', rsuffix='_nei')
 
 
-# In[23]:
+# In[22]:
 
 sta = sta.dropna()
 del sta['Name_nei']
 
 
-# In[24]:
+# In[23]:
 
 sta.index = sta['Name']
 sta = sta[sta['Nb_gal']>2]
 
 
-# ### Final datasets, ready for the visualization tasks
+# ### Final dataset, ready for the visualization tasks!
 # 
 # Here is a snapshot of the final dataset
 
-# In[25]:
+# In[24]:
 
 sta.head()
 
@@ -346,7 +347,7 @@ sta.head()
 # # Exploratory Data Analysis
 # ## Interactive plots using plotly, please play with it!
 
-# In[26]:
+# In[25]:
 
 import plotly.plotly as py
 import cufflinks as cf
@@ -354,7 +355,7 @@ import plotly.graph_objs as go
 from plotly.graph_objs import *
 
 
-# In[27]:
+# In[26]:
 
 import plotly
 plotly.offline.init_notebook_mode()
@@ -370,7 +371,7 @@ cf.set_config_file(offline=False, world_readable=True, theme='ggplot')
 
 # ### Type of Entrance
 
-# In[28]:
+# In[27]:
 
 data = [go.Bar(
             x=sta['Entrance'].value_counts().index,
@@ -384,11 +385,11 @@ fig = go.Figure(data=data, layout=layout)
 plotly.offline.iplot(fig)
 
 
-# Most stations have Stairs, which can be a problem if the artworks are very heavy or large for instance. An artist may want to select a station that has an elevator.
+# Most stations have stairs, which can be a problem if the artworks are very heavy or large for instance. An artist may want to select a station that has an elevator.
 
 # ### Density in Art Galleries
 
-# In[55]:
+# In[28]:
 
 data = [go.Bar(
             y=sta['Nb_gal'].sort_values(ascending=False)[:30].index[::-1],
@@ -442,7 +443,7 @@ plotly.offline.iplot(fig)
 
 # ### Mean Traffic per station
 
-# In[57]:
+# In[29]:
 
 data = [go.Bar(
             y=sta['traffic_mean'].sort_values(ascending=False)[:30].index[::-1],
@@ -494,7 +495,7 @@ plotly.offline.iplot(fig)
 
 # ### Median Income per station
 
-# In[56]:
+# In[30]:
 
 data = [go.Bar(
             y=sta['Median Income'].sort_values(ascending=False)[:30].index[::-1],
@@ -542,11 +543,11 @@ fig = go.Figure(data=data, layout=layout)
 plotly.offline.iplot(fig)
 
 
-# The bars here are grouped by neighborhood basically. This is due to the way we computed the median income for each station, as we assigned to each station the income of its neighborhood. 
+# The horizontal bars here are obviously grouped by neighborhood. This is due to the way we computed the median income for each station, as we assigned the income of its neighborhood to each station. 
 # 
-# We find the stations in the richest neighborhood on top (Chambers St in Tribeca, Whitehall St in Battery Park, Lexington Av in N. Sutton Area...)
+# We find the stations in the richest neighborhoods on top (Chambers St in Tribeca, Whitehall St in Battery Park, Lexington Av in N. Sutton Area...)
 
-# ## Combination of the variables
+# ## Combining the variables
 
 # In the following charts, we combine the different variables, in order to gain insights on the subway stations to pick.
 # 
@@ -558,7 +559,7 @@ plotly.offline.iplot(fig)
 #     y coordinate: number of art galleries around
 #     x coordinate: mean traffic
 
-# In[51]:
+# In[31]:
 
 data = [go.Scatter(
         x = sta['traffic_mean'], 
@@ -600,7 +601,6 @@ layout = go.Layout(
             size=18,
             color='lightgrey'
         ),
-        showgrid=True,
         showticklabels=True,
         ticks='outside',
         title='Mean Traffic'
@@ -628,7 +628,7 @@ plotly.offline.iplot(fig)
 # 
 # These four groups have been assigned different colors
 
-# In[34]:
+# In[32]:
 
 sta['traffic_scaled'] = sta['traffic_mean']
 sta['traffic_scaled'] = sta['traffic_scaled'].apply(lambda x: (x-np.mean(sta['traffic_mean']))/np.std(sta['traffic_mean']))
@@ -637,7 +637,7 @@ sta['nbgal_scaled'] = sta['Nb_gal']
 sta['nbgal_scaled'] = sta['nbgal_scaled'].apply(lambda x: (x-np.mean(sta['Nb_gal']))/np.std(sta['Nb_gal']))
 
 
-# In[35]:
+# In[33]:
 
 sta['quad'] = 0
 for k in range(len(sta['quad'])):
@@ -653,7 +653,7 @@ for k in range(len(sta['quad'])):
             sta['quad'][k]=4
 
 
-# In[44]:
+# In[34]:
 
 data = [go.Scatter(
         x = sta[sta['quad']==1]['traffic_scaled'],y = sta[sta['quad']==1]['nbgal_scaled'],
@@ -727,11 +727,11 @@ plotly.offline.iplot(fig)
 # 
 # Yet, this plot doesn't talk about the mean income of people living near the station, and thus likely to commute through the station. We will add this feature in the next plot.
 
-# ### Number of art galleries vs Traffic vs Income - Scaled
+# ### Number of art galleries vs Traffic vs Income
 
 # In this plot, the size of the dot is correlated to the median income of the neighborhood the station is located in.
 
-# In[37]:
+# In[35]:
 
 def bin_income(x):
     if x<50:
@@ -744,13 +744,13 @@ def bin_income(x):
         return 27
 
 
-# In[38]:
+# In[36]:
 
 sta['income_binned'] = sta['Median Income'] 
 sta['income_binned'] = sta['income_binned'].apply(lambda x: bin_income(x))
 
 
-# In[43]:
+# In[37]:
 
 data = [go.Scatter(
         x = sta[sta['quad']==1]['traffic_scaled'],y = sta[sta['quad']==1]['nbgal_scaled'],
@@ -820,11 +820,11 @@ plotly.offline.iplot(fig)
 # If the green group took his preference, Lexington Av would be a better option than Prince St for instance!
 # 
 
-# ### Number of art galleries vs Traffic vs Entrance type - Scaled
+# ### Number of art galleries vs Traffic vs Entrance type
 
 # We replace the feature 'Income' by the feature 'Entrance' to maintain a great readability of the graph. As there are 5 types of Entrance, we assign a color to each type of Entrance, as descirbed in the legend.
 
-# In[42]:
+# In[38]:
 
 data = [go.Scatter(
         x = sta[sta['Entrance']=='Stair']['traffic_scaled'],y = sta[sta['Entrance']=='Stair']['nbgal_scaled'],
